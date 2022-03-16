@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+}
+
+.header-container {
+  width: 100vw;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #f55a5a;
+  color: #ffffff;
+}
+
+.globe-icon {
+  font-size: 24px;
+}
+
+.journal-heading {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 7%;
+}
+
+.blog {
+  width: 500px;
+  padding: 40px 40px 20px;
+  display: flex;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.blog-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.blog-title {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.location-icon {
+  color: #f55a5a;
+  font-size: 13px;
+}
+
+.country-name {
+  color: #2b283a;
+  letter-spacing: 0.17rem;
+  text-transform: uppercase;
+  margin-left: 4px;
+  margin-right: 12px;
+}
+
+.blog-title > a {
+  color: #918e9b;
+  transition: color 0.4s ease;
+}
+
+.blog-title > a:hover {
+  color: #353535;
+  transition: color 0.3s ease;
+}
+
+h1 {
+  align-self: flex-start;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 7px 0px 10px;
+}
+
+.mb-7 {
+  margin-bottom: 7px;
+}
+
+.calendar {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 12px;
+  align-self: baseline;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 10px;
+  line-height: 15px;
+  color: #2b283a;
+}
